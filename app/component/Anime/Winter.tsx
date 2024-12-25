@@ -32,7 +32,7 @@ const AnimeCardWinter = () => {
               className="anime-card bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:translate-y-2 transition-all duration-300"
             >
               <img
-                src={anime.images.jpg.large_image_url}
+                src={anime.images}
                 alt={anime.title}
                 className="w-full h-64 object-cover rounded-md mb-4"
               />
